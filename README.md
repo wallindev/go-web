@@ -8,7 +8,7 @@ My first barebones Go app, deployed to Heroku.
 Make sure you have [Go](http://golang.org/doc/install) version 1.12 or newer and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
-$ git clone https://github.com/heroku/wallin-goweb.git
+$ git clone https://github.com/wallindev/wallin-goweb.git
 $ cd wallin-goweb
 $ go build -o bin/wallin-goweb -v .
 github.com/mattn/go-colorable

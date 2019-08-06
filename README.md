@@ -1,18 +1,16 @@
 
-# go-getting-started
+# wallin-goweb
 
-A barebones Go app, which can easily be deployed to Heroku.
-
-This application supports the [Getting Started with Go on Heroku](https://devcenter.heroku.com/articles/getting-started-with-go) article - check it out.
+My first barebones Go app, deployed to Heroku.
 
 ## Running Locally
 
 Make sure you have [Go](http://golang.org/doc/install) version 1.12 or newer and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
-$ git clone https://github.com/heroku/go-getting-started.git
-$ cd go-getting-started
-$ go build -o bin/go-getting-started -v .
+$ git clone https://github.com/heroku/wallin-goweb.git
+$ cd wallin-goweb
+$ go build -o bin/wallin-goweb -v .
 github.com/mattn/go-colorable
 gopkg.in/bluesuncorp/validator.v5
 golang.org/x/net/context
@@ -22,11 +20,11 @@ github.com/manucorporat/sse
 github.com/heroku/x/hmetrics/onload
 github.com/gin-gonic/gin/binding
 github.com/gin-gonic/gin
-github.com/heroku/go-getting-started
+github.com/heroku/wallin-goweb
 $ heroku local
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Your app should now be running on [localhost:3000](http://localhost:3000/).
 
 ## Deploying to Heroku
 
@@ -35,11 +33,6 @@ $ heroku create
 $ git push heroku master
 $ heroku open
 ```
-
-or
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
 
 ## Documentation
 

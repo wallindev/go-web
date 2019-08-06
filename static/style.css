@@ -1,0 +1,13 @@
+body {
+  font: 14px "Trebuchet MS", sans-serif;
+  background: url("./dark-tower.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+h1 {
+  color: #fff;
+}
+.header {
+  display: block;
+  margin: 15% auto;
+  width: 420px;
+}
